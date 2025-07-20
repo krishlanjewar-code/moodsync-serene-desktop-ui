@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Bot, User } from 'lucide-react';
+import { Send, Bot, User, Chrome } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -119,6 +119,20 @@ export const HeroChatbot = () => {
             >
               Learn More
             </Button>
+          </div>
+          
+          <div className="mt-6">
+            <Button 
+              variant="secondary" 
+              size="lg"
+              className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-8 py-4 text-lg shadow-soft transition-all duration-300 hover:scale-105 flex items-center gap-3"
+            >
+              <Chrome className="w-5 h-5" />
+              Add Chrome Extension
+            </Button>
+            <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+              Track your mood as you browse - analyzes sentiment of your activity and offers personalized suggestions based on your emotional state
+            </p>
           </div>
         </div>
 
