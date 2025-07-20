@@ -122,14 +122,20 @@ export const HeroChatbot = () => {
           </div>
           
           <div className="mt-6">
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-mint text-mint hover:bg-mint/10 px-8 py-4 text-lg shadow-soft transition-all duration-300 hover:scale-105 flex items-center gap-3"
-            >
-              <Chrome className="w-5 h-5" />
-              Add Chrome Extension
-            </Button>
+           <a 
+  href="https://moodsync-serene-chrome.lovable.app/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant="outline" 
+    size="lg"
+    className="border-mint text-mint hover:bg-mint/10 px-8 py-4 text-lg shadow-soft transition-all duration-300 hover:scale-105 flex items-center gap-3"
+  >
+    <Chrome className="w-5 h-5" />
+    Add Chrome Extension
+  </Button>
+</a>
             <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
               Track your mood as you browse - analyzes sentiment of your activity and offers personalized suggestions based on your emotional state
             </p>
