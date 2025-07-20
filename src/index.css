@@ -22,9 +22,9 @@ All colors MUST be HSL.
     --primary: 265 70% 70%;
     --primary-foreground: 230 25% 8%;
 
-    /* Darker pastel blue */
-    --secondary: 200 60% 25%;
-    --secondary-foreground: 252 100% 95%;
+    /* Brighter pastel blue for better contrast */
+    --secondary: 200 70% 60%;
+    --secondary-foreground: 230 25% 8%;
 
     /* Dark mint muted */
     --muted: 230 15% 18%;
