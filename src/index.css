@@ -8,112 +8,68 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Calming color palette for MoodSync */
-    --background: 252 100% 99%;
-    --foreground: 230 15% 25%;
+    /* Dark calming color palette for MoodSync */
+    --background: 230 25% 8%;
+    --foreground: 252 100% 95%;
 
-    --card: 252 100% 98%;
-    --card-foreground: 230 15% 25%;
+    --card: 230 20% 12%;
+    --card-foreground: 252 100% 95%;
 
-    --popover: 252 100% 98%;
-    --popover-foreground: 230 15% 25%;
+    --popover: 230 20% 12%;
+    --popover-foreground: 252 100% 95%;
 
-    /* Lavender primary */
-    --primary: 265 60% 75%;
-    --primary-foreground: 252 100% 99%;
+    /* Brighter lavender for dark theme */
+    --primary: 265 70% 70%;
+    --primary-foreground: 230 25% 8%;
 
-    /* Pastel blue secondary */
-    --secondary: 200 60% 85%;
-    --secondary-foreground: 230 15% 25%;
+    /* Darker pastel blue */
+    --secondary: 200 60% 25%;
+    --secondary-foreground: 252 100% 95%;
 
-    /* Light mint muted */
-    --muted: 150 40% 90%;
-    --muted-foreground: 230 15% 55%;
+    /* Dark mint muted */
+    --muted: 230 15% 18%;
+    --muted-foreground: 252 50% 70%;
 
-    /* Soft accent */
-    --accent: 265 40% 88%;
-    --accent-foreground: 230 15% 25%;
+    /* Dark soft accent */
+    --accent: 230 15% 16%;
+    --accent-foreground: 252 100% 95%;
 
-    --destructive: 0 65% 70%;
-    --destructive-foreground: 252 100% 99%;
+    --destructive: 0 65% 65%;
+    --destructive-foreground: 252 100% 95%;
 
-    --border: 220 20% 88%;
-    --input: 220 20% 92%;
-    --ring: 265 60% 75%;
+    --border: 230 15% 22%;
+    --input: 230 15% 20%;
+    --ring: 265 70% 70%;
 
-    /* Custom MoodSync colors */
-    --lavender: 265 60% 75%;
-    --lavender-light: 265 40% 88%;
-    --pastel-blue: 200 60% 85%;
-    --pastel-blue-light: 200 40% 92%;
-    --mint: 150 60% 80%;
-    --mint-light: 150 40% 90%;
-    --soft-gray: 220 15% 95%;
-    --calm-gradient: linear-gradient(135deg, hsl(265 60% 75%), hsl(200 60% 85%));
-    --hero-gradient: linear-gradient(135deg, hsl(265 40% 95%), hsl(200 40% 95%));
+    /* Custom MoodSync dark colors */
+    --lavender: 265 70% 70%;
+    --lavender-light: 265 60% 25%;
+    --pastel-blue: 200 70% 65%;
+    --pastel-blue-light: 200 50% 25%;
+    --mint: 150 70% 65%;
+    --mint-light: 150 50% 25%;
+    --soft-gray: 230 15% 15%;
+    --calm-gradient: linear-gradient(135deg, hsl(265 70% 70%), hsl(200 70% 65%));
+    --hero-gradient: linear-gradient(135deg, hsl(230 25% 10%), hsl(230 20% 12%));
     
-    /* Shadows */
-    --shadow-soft: 0 10px 30px -10px hsl(265 60% 75% / 0.2);
-    --shadow-gentle: 0 4px 20px -4px hsl(200 60% 85% / 0.3);
+    /* Enhanced shadows for dark theme */
+    --shadow-soft: 0 10px 30px -10px hsl(0 0% 0% / 0.4);
+    --shadow-gentle: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Dark sidebar colors */
+    --sidebar-background: 230 20% 10%;
+    --sidebar-foreground: 252 100% 95%;
+    --sidebar-primary: 265 70% 70%;
+    --sidebar-primary-foreground: 230 25% 8%;
+    --sidebar-accent: 230 15% 16%;
+    --sidebar-accent-foreground: 252 100% 95%;
+    --sidebar-border: 230 15% 22%;
+    --sidebar-ring: 265 70% 70%;
   }
 }
 
