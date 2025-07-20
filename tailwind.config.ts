@@ -61,7 +61,37 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom MoodSync colors
+				lavender: {
+					DEFAULT: 'hsl(var(--lavender))',
+					light: 'hsl(var(--lavender-light))'
+				},
+				'pastel-blue': {
+					DEFAULT: 'hsl(var(--pastel-blue))',
+					light: 'hsl(var(--pastel-blue-light))'
+				},
+				mint: {
+					DEFAULT: 'hsl(var(--mint))',
+					light: 'hsl(var(--mint-light))'
+				},
+				'soft-gray': 'hsl(var(--soft-gray))'
+			},
+			backgroundImage: {
+				'calm-gradient': 'var(--calm-gradient)',
+				'hero-gradient': 'var(--hero-gradient)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'gentle': 'var(--shadow-gentle)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
+			},
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'nunito': ['Nunito', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
